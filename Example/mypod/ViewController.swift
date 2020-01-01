@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import mypod
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let lab = UILabel()
+        lab.font = UIFont.remachineScript(55)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
